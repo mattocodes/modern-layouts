@@ -21,5 +21,46 @@
    }
 
 
-   
+ /* MODERN LAYOUT #2  */
+ 
+ .layout2 header .logo {
+     width: 20%;
+     float: left;
+     margin: 0;
+ }
 
+ .layout2 header nav {
+     width: 78%;
+     float: right;
+     margin: 0;
+ }
+
+ /* Simple clear fix to prevent collapse */
+
+ .layout2 header::after {
+     display: block;
+     content: "";
+     clear: both;
+ }
+
+ .layout2 article {
+     width: 50%;
+     margin-left: 2%;
+     float: left;
+ }
+
+ .layout2 aside.sidenav {
+     width: 23%;
+     float: left;
+ }
+
+ .layout2 aside.sidebar {
+     width: 23%;
+     float: right;
+ }
+
+ .layout2 footer {
+     clear: both;
+ }
+
+ 
